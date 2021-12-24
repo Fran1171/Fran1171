@@ -1,0 +1,83 @@
+body {
+  background-color: black !important;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+}
+h2,
+h3,
+div {
+  font-family: "Poppins";
+  color: #e5c2dc;
+}
+
+h3 {
+  font-size: 150% !important;
+}
+form {
+  color: #e5c2dc;
+}
+
+.titulo {
+  color: black;
+  background-color: #01d9ff;
+  text-align: center;
+}
+.explainer {
+  background-color: #0145ff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.variables {
+  background-color: black;
+  color: white;
+}
+
+.row {
+  align-items: center !important;
+}
+
+.form-label {
+  font-style: italic;
+}
+
+.offcanvas {
+  background-color: black !important;
+}
+
+.card {
+  align-items: center !important;
+  background-image: url(../media/boletas.png);
+  background-size: cover;
+}
+
+.card .card-title {
+  font-style: italic;
+  font-size: 250% !important;
+  text-align: center;
+  color: white;
+}
+
+.card .card-body {
+  background-color: transparent;
+}
+
+.card .card-body-over {
+  background-color: #01d9ff;
+}
+
+.card .card-body-clic {
+  background-color: blueviolet;
+}
+
+@media (min-width: 992px) {
+  .variables {
+    background-color: black;
+    color: white;
+    background-image: url(../media/voto-back.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
